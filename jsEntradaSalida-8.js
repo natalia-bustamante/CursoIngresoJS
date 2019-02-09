@@ -11,11 +11,11 @@ function SacarResto()
 	dividendo=numeroUno.value;
 	divisor=numeroDos.value;
 
-	dividendo=parseInt(primerNumero);
-	divisor=parseInt(segundoNumero);
+	dividendo=parseInt(dividendo);
+	divisor=parseInt(divisor);
 
-	dividir=primerNumero%segundoNumero;
+	dividir=dividendo/divisor;
 
-	alert("el resto es: "+dividir);
+	alert ("el resto es: "+dividir);
 
 }
