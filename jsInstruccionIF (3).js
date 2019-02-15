@@ -6,10 +6,16 @@ function mostrar()
 	edad=document.getElementById('edad').value;
 
  //tomo la edad  
-	if(edad==15)
+	if(edad<17)
 	{
-		alert("niña bonita");
+		alert("Es menor de edad.");
 
 	} 
+
+	if(edad>18)
+	{
+		alert("Es mayor de edad");
+
+	}
 
 }       //FIN DE LA FUNCIÓN
